@@ -1,0 +1,72 @@
+// 隐藏继续努力
+.archive .collection-title {
+//   display: none !important;
+}
+
+// 文章块样式
+ .post-block{
+        background-color: rgba(255, 255, 255, 1);
+        margin-bottom: 24px !important;
+        border-radius: 30px 30px 30px 30px !important;
+        box-shadow: 8px 7px 2px 0 rgba(0,0,0,0.12), 7px 4px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12) !important;
+}
+
+// 文章内容的透明度设置
+ .content-wrap{
+    opacity: 0.85;
+}
+
+//搜索框的透明度设置
+.popup {
+    opacity: 0.9;
+}
+// 背景图
+body {
+    background-image:url(/images/background.jpeg);
+    background-repeat: repeat-x;
+    background-attachment: fixed; //不随页面滚动
+    background-size: 100% 100%; //or cover
+    background-position: 100% 100%;
+}
+// sidebar侧边个人头像样式
+.sidebar{
+    // 动画过渡时间
+   // transition-duration: 0.4s;
+    // 透明度
+    opacity: 0.9
+    avatar:url(images/profile.jpeg)
+    //更改侧边栏中字体颜色
+    p, span, a {color: #ffb6c1;}
+    //加入图片背景
+    background:url(/images/site_background.jpeg)
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+// 标题
+.posts-expand .post-title-link {
+    // 设置字体颜色
+    color: #222;
+}
+// 文章列表样式
+.main-inner {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 40px 40px 40px;
+}
+// 侧边、分页 rgba(255, 255, 255, 1);   0 和 1 是样式透明度
+.header-inner, .sidebar-inner,.pagination{
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 30px 30px 30px 30px !important;
+    box-shadow: 8px 7px 2px 0 rgba(0,0,0,0.12), 7px 4px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12) !important;    
+}
+
+//更改site title
+.site-meta{
+    background: $white;
+    color: #ffb6c1 !important;
+}
+
+//更改底部字体颜色
+.foot-inner {
+color: #ffb6c1
+}
